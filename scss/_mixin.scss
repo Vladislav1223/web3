@@ -1,0 +1,15 @@
+@mixin color($colorEx){
+    color:$colorEx;
+    font-size: 200%;
+    background-color: black;
+    padding: 20px; 
+    margin-top: 0%; 
+}
+@mixin color1($colorEx){
+    color:$colorEx;
+    font-size: 200%;
+    background-color:black;
+    padding: 0px; 
+    margin-top: 0%; 
+    margin-block-end: 0%;
+}

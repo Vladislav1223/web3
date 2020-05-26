@@ -1,0 +1,191 @@
+@import "peremennie";
+@import "mixin";
+#id1{
+    @include color(blue);
+}
+
+body {
+    background: url(../img/9.jpg);
+    margin:0;
+    padding:0;
+    }
+header,main{
+    padding: 0 10px;
+}
+footer{
+    padding: 0 0px;
+}
+header{ 
+  #id2{
+    color: $variable3;
+    font-size: 150%;   
+  }
+  .class1{
+    float: right; 
+    margin: 0 0 10px 10px; 
+    margin-top: 0px;
+    width: 50%;
+  } 
+}
+main{
+  .class2{
+    float: left; 
+    margin: 0 0 5px 5px; 
+    margin-top: 0px;
+  }
+  .class3{
+    float: left; 
+    margin: 0 0 px 0px; 
+  }
+  #id3{
+   font-size: $variable1;
+   color: $variable3;
+   
+  }
+  #id4{
+    font-size: $variable1;
+    color: $variable2;
+  }
+  #id5{
+    color:black;
+    font-size: 132%;  
+  }
+  #id6{
+    color:black;
+    font-size: 140%;   
+  }
+  #id7{
+    font-size: $variable4;
+    color: $variable5;  
+  }
+  #id8{
+    font-size: $variable4;
+    color: $variable5;   
+  }
+  #id9{
+    font-size: $variable4;
+    color: $variable5;   
+  }
+}
+#id10{
+    @include color1(blue);
+
+}
+
+@media(max-width:768px){
+    header{
+     .class1{
+        margin-top: 0px;
+        width: 100%;
+     }
+     #id2{
+        color: darkred;
+     }
+    }
+    main{
+     .class2{
+        margin-top: 0px;
+        width: 100%;
+     }
+     #id3{
+        color: darkred;
+        font-size: 150%;
+        margin-left: 0px;
+     } 
+     .class3{
+        margin-top: 0px;
+        width: 100%;
+     }
+     #id4{
+        color: darkred;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id5{
+        color: darkred;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id6{
+        color: darkred;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id7{
+        color: darkred;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id8{
+        color: darkred;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id9{
+        color: darkred;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+    }
+
+}
+
+@media(max-width:375px){
+    header{
+     .class1{
+        margin-top: 0px;
+        width: 50%;
+        height: 50%;
+     }
+     #id2{
+        color:white;
+     }
+    }
+    main{
+     .class2{
+        margin-top: 0px;
+        width: 50%;
+        height: 50%;
+     }
+     #id3{
+        color:white;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     .class3{
+        margin-top: 0px;
+        width: 50%;
+        height: 50%;
+     }
+     #id4{
+        color:white;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id5{
+        color:white;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id6{
+        color:white;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id7{
+        color:white;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id8{
+        color:white;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+     #id9{
+        color:white;
+        font-size: 150%;
+        margin-left: 0px;
+     }
+    }
+}
